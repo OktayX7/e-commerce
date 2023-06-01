@@ -1,0 +1,11 @@
+.cart-container::-webkit-scrollbar {
+  width: 0.4rem; /* Scroll çubuğunun genişliği */
+}
+
+.cart-container::-webkit-scrollbar-track {
+  background: transparent; /* Scroll çubuğu arkaplanı */
+}
+
+.cart-container::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Scroll çubuğu rengi */
+}

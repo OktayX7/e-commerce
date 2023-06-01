@@ -1,0 +1,24 @@
+@import 'scss/tailwind.scss';
+
+.nm-team-member-overlay {
+  @apply relative;
+  background: rgba(0, 0, 0, 0.7);
+
+  &:hover {
+    img {
+      @apply opacity-20;
+      transition: 0.5s ease;
+      -webkit-transition: opacity 0.5s ease;
+    }
+  }
+}
+
+.nm-team-member-social-icons {
+  @apply absolute;
+  @apply justify-center;
+  @apply hidden;
+  @apply w-full;
+  top: 40%;
+  transition: top 0.2s ease;
+  -webkit-transition: top 0.2s ease;
+}

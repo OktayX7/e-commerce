@@ -1,0 +1,62 @@
+.slick-dots {
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  margin-top: -6px;
+  @apply pb-2;
+  @apply md:mb-12;
+  @apply md:border-none;
+  @apply md:text-start;
+  @apply md:mt-0;
+  @apply md:max-w-7xl;
+  @apply md:ml-40;
+}
+
+.detail-slick .slick-dots {
+  @apply hidden;
+}
+
+// @media screen and (min-width: 1080px) {
+//   .slick-dots {
+//     @apply hidden;
+//   }
+// }
+
+.slick-dots div {
+  @apply mt-3;
+}
+.slick-dots .slick-active {
+  @apply mb-[1px];
+  @apply md:mb-1;
+}
+.slick-dots .slick-active div {
+  @apply bg-transparent;
+  @apply border-2 border-warning;
+  @apply w-[10px];
+  @apply h-[10px];
+  @apply md:w-[14px];
+  @apply md:h-[14px];
+  @apply mb-3;
+}
+
+.slick-slider .slick-prev:before {
+  content: none;
+}
+
+.slick-slider .slick-next:before {
+  content: none;
+}
+
+.slick-slider .slick-prev {
+  @apply z-[3];
+  @apply left-0;
+}
+
+.slick-slider .slick-next {
+  @apply z-[3];
+  @apply right-1;
+}
+
+.react-tabs__tab--selected {
+  @apply text-primary;
+  border-bottom: 1px solid black;
+}

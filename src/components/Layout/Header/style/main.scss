@@ -1,0 +1,45 @@
+@keyframes opacity-translateY {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes opacity-translateX {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes translateX {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.opacity-translateY-ease-in-out-05sn {
+  animation: opacity-translateY 0.5s ease-in-out;
+}
+
+.opacity-translateX-ease-in-out-05sn {
+  animation: opacity-translateX 0.5s ease-in-out;
+}
+.opacity-translateX-ease-in-out-1sn {
+  animation: opacity-translateX 1s ease-in-out;
+}
+
+.translateX-ease-in-out-05sn {
+  animation: translateX 0.5s ease-in-out;
+}
